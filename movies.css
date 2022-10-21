@@ -1,0 +1,92 @@
+.watch-section .container h1,
+.movies-section .container h1,
+.show-section .container h1 {
+    font-size: 3.5vw;
+    font-weight: 500;
+    margin-bottom: 3.64vw;
+}
+
+.background {
+    background: linear-gradient(270deg, #000000 -2.92%, rgba(0, 0, 0, 0) 300%);
+    padding-top: 8vw;
+}
+
+.watch-movie-1,
+.watch-movie-2,
+.movies-1,
+.movies-2,
+.shows-1,
+.shows-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-1,
+.movie-2,
+.movie-3,
+.movie-4,
+.movie-5 {
+    margin-bottom: 1.1vw;
+    position: relative;
+}
+
+.movie-1-img {
+    width: 59.64vw;
+    height: 40.9vw;
+}
+
+.movies-img {
+    width: 29.2vw;
+    height: 40.9vw;
+}
+
+.movie-name {
+    position: absolute;
+    left: 0.72vw;
+    bottom: 0.72vw;
+}
+
+.movie-name h2 {
+    font-size: 2.62vw;
+}
+
+.movie-name div,
+.movie-name div p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.movie-name div {
+    width: 14.6vw;
+}
+
+.movie-name p {
+    width: 7vw;
+}
+
+.movie-name h2 {
+    margin: 0;
+}
+
+.movie-name img {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.watch-movie-1 :hover,
+.watch-movie-2 :hover,
+.movies-1 :hover,
+.movies-2 :hover,
+.shows-1 :hover,
+.shows-2 :hover {
+    cursor: pointer;
+}
+
+.watch-section,
+.movies-section,
+.show-section {
+    margin-bottom: 8.75vw;
+}

@@ -1,0 +1,256 @@
+.films {
+    display: flex;
+    position: relative;
+    width: 88vw;
+    margin: 0 auto;
+    height: 40.9vw;
+}
+.film-image {
+    width: 100%;
+}
+
+.film-play-image {
+    position: absolute;
+    left: 45.5%;
+    bottom: 45.5%;
+    cursor: pointer;
+    width: 7.3vw;
+}
+
+.film-text {
+    position: absolute;
+    left: 1.45vw;
+    bottom: 0.73vw;
+}
+
+.film-text h2 {
+    font-size: 2.33vw;
+    margin: 0;
+}
+
+.film-text p {
+    line-height: 2.33vw;
+    width: 27vw;
+    font-size: 1.16vw;
+}
+
+/* ------------ */
+
+.film-episodes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.37vw;
+}
+
+.episode-1,
+.episode-2,
+.episode-3 {
+    width: 29.2vw;
+    display: flex;
+    margin-bottom: 1.45vw;
+    cursor: pointer;
+}
+
+.episode-img {
+    width: 12.84vw;
+    height: 12.84vw;
+}
+
+.episode-text {
+    line-height: 1.75vw;
+    width: 15.6vw;
+    padding: 0.73vw 0 0 0.73vw;
+    background-color: #1E1E1E;
+}
+
+.episode-text h4 {
+    line-height: 2.62vw;
+    font-size: 1.16vw;
+    margin: 0;
+}
+
+.episode-text p {
+    color: #E6E6E6;
+    margin: 0;
+    font-size: 0.87vw;
+    width: 12.4vw;
+}
+
+.episode-time {
+    display: flex;
+    align-items: center;
+    width: 13.86vw;
+    margin-top: 1.1vw;
+}
+
+.episode-time img {
+    width: 1vw;
+}
+
+
+.film-section {
+    padding-bottom: 4.38vw;
+}
+
+/* ---------- */
+
+footer {
+    padding: 4.38vw 0 4.38vw 0;
+    background: #3D3D3D;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-email {
+    width: 33.35vw;
+    padding-left: 1.82vw;
+}
+
+.footer-email h1 {
+    font-weight: 500;
+    font-size: 3.8vw;
+}
+
+.footer-email p {
+    width: 23.35vw;
+    padding: 2.19vw 0 1.82vw 0;
+    line-height: 2.33vw;
+    font-size: 1vw;
+    color: #E6E6E6;
+}
+
+.footer-form p {
+    font-size: 1.16vw;
+    font-weight: 700;
+    color: white;
+    padding: 0;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 16vw;
+    background-color: #525252;
+    border-radius: 0.58vw;
+}
+
+.email-button {
+    background: yellow;
+    border: none;
+    position: absolute;
+    right: 0.45vw;
+    cursor: pointer;
+    color: black;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 0.32vw;
+    font-size: 1.3vw;
+}
+
+.mail {
+    padding: 0.73vw 0.73vw;
+    border: none;
+    background-color: transparent;
+    width: 13vw;
+    color: white;
+    outline: none;
+    font-size: 1.16vw;
+}
+
+.footer-about {
+    padding: 2.19vw 0 0 0;
+    width: 47.44vw;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.1vw;
+}
+
+.footer-links h4 {
+    font-size: 1.16vw;
+}
+
+.product,
+.media,
+.sitemap {
+    display: flex;
+    flex-direction: column;
+}
+
+.product a,
+.media a,
+.sitemap a {
+    margin-top: 1.82vw;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4vw;
+}
+
+.footer-contacts div p {
+    font-size: 1vw;
+    margin-bottom: 1.1vw;
+    display: flex;
+    align-items: center;
+}
+
+.blur-window { 
+    filter: blur(20px); 
+} 
+ 
+.succesfully-window { 
+    display: none;
+    justify-content: space-around;
+    border-radius: 20px; 
+    position: fixed; 
+    left: 35vw; 
+    top: 35vh; 
+    width: 29vw; 
+    height: 14.6vw; 
+    background: linear-gradient(270deg, #000000 -2.92%, rgba(0, 0, 0, 0) 300%);
+    align-items: center; 
+    font-size: 2.4vw; 
+    box-shadow: rgba(78, 74, 74, 0.202) 0.14vw 0.3vw 0.6vw 0.3vw; 
+} 
+ 
+
+.succesfully-text { 
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.succesfully-text h5 {
+    margin-bottom: 1vw;
+}
+
+.succesfully-text button {
+    margin-top: 1vw;
+}
+
+#confirm {
+    width: 8.76vw; 
+    height: 4.38vw; 
+    border: none; 
+    border-radius: 20px; 
+    background-color: black; 
+    cursor: pointer; 
+    color: white; 
+    font-size: 1.8vw; 
+} 
+ 
+#confirm:active { 
+    width: 8.6vw; 
+    height: 4.2vw; 
+    color: rgba(255, 255, 255, 0.735); 
+} 

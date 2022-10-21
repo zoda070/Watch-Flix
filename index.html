@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/watchflix.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/header-hero.css">
+    <link rel="stylesheet" href="./styles/movies.css">
+    <link rel="stylesheet" href="./styles/film-footer.css">
+    <title>Watchflix</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-name">
+                <h1>Watchflix</h1>
+            </div>
+            <div class="header-link">
+                <a class="active-link" href="#" id="1">Home</a>
+                <a href="#" id="2">Movies</a>
+                <a href="#" id="3">TV Show</a>
+                <a href="#" id="4">Video</a>
+                <a href="#" id="5">FAQ</a>
+                <a href="#" id="6">Pricing</a>
+                <a href="#" id="7">Contact Us</a>
+            </div>
+            <div class="header-search-profile">
+                <button class="search"><svg xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" width="1.7vw">
+                        <g id="surface333043454">
+                            <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;"
+                                d="M 20.5 6 C 12.507812 6 6 12.507812 6 20.5 C 6 28.492188 12.507812 35 20.5 35 C 23.957031 35 27.132812 33.777344 29.628906 31.75 L 39.4375 41.558594 C 39.816406 41.953125 40.375 42.109375 40.898438 41.972656 C 41.425781 41.835938 41.835938 41.425781 41.972656 40.898438 C 42.109375 40.375 41.953125 39.816406 41.558594 39.4375 L 31.75 29.628906 C 33.777344 27.132812 35 23.957031 35 20.5 C 35 12.507812 28.492188 6 20.5 6 Z M 20.5 9 C 26.867188 9 32 14.132812 32 20.5 C 32 23.601562 30.777344 26.40625 28.789062 28.472656 C 28.667969 28.5625 28.5625 28.667969 28.46875 28.792969 C 26.40625 30.777344 23.601562 32 20.5 32 C 14.132812 32 9 26.867188 9 20.5 C 9 14.132812 14.132812 9 20.5 9 Z M 20.5 9 " />
+                        </g>
+                    </svg>
+                </button>
+                <div class="profile">
+                    <img src="./images/smile.png" style="width:4vw;" alt="smile">
+                    <h6>John Glich</h6>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero-section" id="Home">
+                <div class="hero-movie">
+                    <div class="hero-images">
+                        <img src="./images/Rush Hour.jpg" class="hero-image" style="width: 32.2vw; height: 33vw;" alt=""
+                            id="hero-image">
+                        <img src="./images/Play Button.png" class="hero-play-image"
+                            style="width: 10.5vw; height: 10.5vw;" alt="">
+                    </div>
+                    <div class="hero-text">
+                        <h1 id="hero-name">Rush Hour</h1>
+                        <p id="p0">When a Chinese consul's young daughter is kidnapped, Hong Kong Detective Lee must
+                            team up with Carter, a loud-mouthed LA detective. Distinctive work styles and cultural
+                            differences pose hiccups.</p>
+                        <div class="hero-duration">
+                            <p id="p1">Genre : Action/Comedy (1998)</p>
+                            <p id="p2">Duration : 1 hr 38 mins</p>
+                            <p id="p3">Ratings : 7/10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-trailers">
+                    <h1>Movies</h1>
+                    <div class="trailers">
+                        <div class="trailer-1" onclick="func1()">
+                            <img src="./images/Rush Hour.jpg" id="01" style="width: 21.6vw; height: 10vw;"
+                                alt="">
+                            <p>01</p>
+                        </div>
+                        <div class="trailer-2" onclick="func2()">
+                            <img src="./images/Insidious.jpg" id="02" style="width: 21.6vw; height: 10vw;" alt="">
+                            <p>02</p>
+                        </div>
+                        <div class="trailer-3" onclick="func3()">
+                            <img src="./images/John Wick.jpg" id="03" style="width: 21.6vw; height: 10vw;"
+                                alt="">
+                            <p>03</p>
+                        </div>
+                        <div class="trailer-4" onclick="func4()">
+                            <img src="./images/Johnny English.jpg" id="04" style="width: 21.6vw; height: 10vw;"
+                                alt="">
+                            <p>04</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="background">
+            <section class="watch-section">
+                <div class="container">
+                    <h1>My Last Watch</h1>
+                    <div class="watch-movies">
+                        <div class="watch-movie-1">
+                            <div class="movie-1">
+                                <img src="./images/The Expendables.jpg" class="movie-1-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 43min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>The Expendables</h2>
+                                </div>
+                            </div>
+                            <div class="movie-2">
+                                <img src="./images/Rush Hour.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 38min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>Rush Hour</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="watch-movie-2">
+                            <div class="movie-3">
+                                <img src="./images/Insidious.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 43min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>Insidious</h2>
+                                </div>
+                            </div>
+                            <div class="movie-4">
+                                <img src="./images/John Wick.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 41min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>John Wick</h2>
+                                </div>
+                            </div>
+                            <div class="movie-5">
+                                <img src="./images/Johnny English.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 29min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>Johnny English</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="movies-section" id="Movies">
+                <div class="container">
+                    <h1>Top Movies</h1>
+                    <div class="movies">
+                        <div class="movies-1">
+                            <div class="movie-1">
+                                <img src="./images/The Expendables.jpg" class="movie-1-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 43min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>The Expendables</h2>
+                                </div>
+                            </div>
+                            <div class="movie-2">
+                                <img src="./images/Rush Hour.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 38min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>Rush Hour</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movies-2">
+                            <div class="movie-3">
+                                <img src="./images/Insidious.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 43min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>Insidious</h2>
+                                </div>
+                            </div>
+                            <div class="movie-4">
+                                <img src="./images/John Wick.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 41min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>John Wick</h2>
+                                </div>
+                            </div>
+                            <div class="movie-5">
+                                <img src="./images/Johnny English.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 29min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>Johnny English</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="show-section" id="show">
+                <div class="container">
+                    <h1>TV Show</h1>
+                    <div class="shows">
+                        <div class="shows-1">
+                            <div class="movie-1">
+                                <img src="./images/The Expendables.jpg" class="movie-1-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 43min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>The Expendables</h2>
+                                </div>
+                            </div>
+                            <div class="movie-2">
+                                <img src="./images/Rush Hour.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 38min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>Rush Hour</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shows-2">
+                            <div class="movie-3">
+                                <img src="./images/Insidious.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 43min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>Insidious</h2>
+                                </div>
+                            </div>
+                            <div class="movie-4">
+                                <img src="./images/John Wick.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 41min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>John Wick</h2>
+                                </div>
+                            </div>
+                            <div class="movie-5">
+                                <img src="./images/Johnny English.jpg" class="movies-img" alt="">
+                                <div class="movie-name">
+                                    <div>
+                                        <p><img src="./images/hours.png" alt=""> 1hr 29min</p>
+                                        <p><img src="./images/eye.png" alt=""> 21.3K views</p>
+                                    </div>
+                                    <h2>Johnny English</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="film-section">
+                <div class="container">
+                    <div class="films">
+                        <img src="./images/Pirates of the Caribbean 2.jpg" class="film-image" alt="">
+                        <img src="./images/Play film.png" class="film-play-image" alt="">
+                        <div class="film-text">
+                            <h2>Pirates of the Caribbean</h2>
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod ut labore et.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="film-episodes">
+                        <div class="episode-1">
+                            <img src="./images/Dead Man's Chest.jpg" class="episode-img" alt="">
+                            <div class="episode-text">
+                                <p style="font-size: 1vw;">Episode 1</p>
+                                <h4>Dead Man's Chest</h4>
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipis cing elit</p>
+                                <div class="episode-time">
+                                    <p><img src="./images/Episode time.png" alt=""> 1hr 43mins</p>
+                                    <p><img src="./images/Epidose calendar.png" alt=""> June 2, 2006</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episode-2">
+                            <img src="./images/At World's End.jpg" class="episode-img" alt="">
+                            <div class="episode-text">
+                                <p style="font-size: 1vw;">Episode 2</p>
+                                <h4>At World's End</h4>
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipis cing elit</p>
+                                <div class="episode-time">
+                                    <p><img src="./images/Episode time.png" alt=""> 1hr 43mins</p>
+                                    <p><img src="./images/Epidose calendar.png" alt=""> June 2, 2007</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episode-3">
+                            <img src="./images/On Stranger Tides.jpg" class="episode-img" alt="">
+                            <div class="episode-text">
+                                <p style="font-size: 1vw;">Episode 3</p>
+                                <h4>On Stranger Tides</h4>
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipis cing elit</p>
+                                <div class="episode-time">
+                                    <p><img src="./images/Episode time.png" alt=""> 1hr 43mins</p>
+                                    <p><img src="./images/Epidose calendar.png" alt=""> June 2, 2011</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-email">
+                <h1>Watchflix</h1>
+                <p>Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod tempor incididunt ut labore
+                    et.</p>
+                <div class="footer-form">
+                    <p>Join Newsletters</p>
+                    <form action="#" id="form" class="form">
+                        <input type="email" id="mail" class="mail" autocomplete="off"
+                            placeholder="Insert your mail here" required>
+                        <button type="submit" id="email-button" class="email-button">&RightArrow;</button>
+                    </form>
+                </div>
+                <div class="succesfully-window">
+                    <div class="succesfully-text">
+                        <h5>Successfully joined!</h5>
+                        <button id="confirm">Ok</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-about">
+                <div class="footer-links">
+                    <div class="product">
+                        <h4>Product</h4>
+                        <a href="#">Movies</a>
+                        <a href="#">TV Show</a>
+                        <a href="#">Videos</a>
+                    </div>
+                    <div class="media">
+                        <h4>Media Group</h4>
+                        <a href="#">Nice Studio</a>
+                        <a href="#">Nice News</a>
+                        <a href="#">Nice TV</a>
+                    </div>
+                    <div class="sitemap">
+                        <h4>Sitemap</h4>
+                        <a href="#">About</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Press</a>
+                    </div>
+                </div>
+                <div class="footer-contacts">
+                    <div class="location">
+                        <p><img src="./images/location.png" style="width: 1vw;" alt=""> 8819 Ohio St. South Gate,
+                            California 90280</p>
+                    </div>
+                    <div class="email">
+                        <p><img src="./images/email.png" style="width: 1.46vw;" alt=""> ourstudio@hello.com</p>
+                    </div>
+                    <div class="phone">
+                        <p><img src="./images/phone.png" style="width: 1.6vw;" alt="">+992 91-526-06-02</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/links.js"></script>
+    <script src="./scripts/email.js"></script>
+    <script src="./scripts/slide.js"></script>
+
+</body>
+
+</html>

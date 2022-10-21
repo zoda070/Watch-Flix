@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(270deg, #000000 -2.92%, rgba(0, 0, 0, 0) 300%);
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1254px;
+}
+
+header .container,
+.header-search-profile,
+.header-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-name {
+    width: 12vw;
+    font-size: 1.3vw;
+}
+
+.header-link {
+    width: 55vw;
+}
+
+a {
+    text-decoration: none;
+    color: #E6E6E6;
+    font-size: 1.3vw;
+}
+
+.a-button {
+    background: none;
+    border: none;
+}
+
+.header-search-profile {
+    width: 16vw;
+}
+
+.header-search-profile :hover {
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10.7vw;
+    font-size: 1.2vw;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.search {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+header {
+    margin-bottom: 3.5vw;
+    padding-top: 2.6vw;
+}
+
+/* ---------- */
+
+.hero-movie {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2.2vw;
+}
+
+.hero-images {
+    position: relative;
+}
+
+
+.hero-play-image {
+    position: absolute;
+    bottom: 0.8vw;
+    left: 0.6vw;
+    cursor: pointer;
+}
+
+.trailers :hover {
+    cursor: pointer;
+}
+
+.hero-text {
+    width: 32.2vw;
+}
+
+.hero-text h1 {
+    font-size: 4.66vw;
+    line-height: 7vw;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.16vw;
+    line-height: 2.33vw;
+}
+
+.hero-duration {
+    font-weight: 500;
+    margin-top: 1.46vw;
+}
+
+.hero-trailers h1 {
+    font-size: 2.33vw;
+    margin-bottom: 1.46vw;
+}
+
+.trailers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trailers div p {
+    font-size: 2.33vw;
+    font-weight: 700;
+    margin: 0;
+}
+
+.trailers div {
+    position: relative;
+    margin-bottom: 1.1vw;
+}
+
+.trailers div p {
+    position: absolute;
+    right: 0.58vw;
+    bottom: -1.16vw;
+}
+
+.hero-section {
+    margin-bottom: 0.73vw;
+}
+
+
+.active-link {
+    border-bottom: 0.3vw solid yellow;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
